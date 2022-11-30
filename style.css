@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#titulo{
+
+    
+}
+body{
+    color: rgb(21, 255, 0);
+}
