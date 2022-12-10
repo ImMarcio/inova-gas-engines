@@ -1,4 +1,4 @@
-body {
+*body {
     background-color: #17191a;
     color: #c7c3bd;
   }
@@ -16,4 +16,41 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+  }
+
+
+  .location {
+    width: 80vw;
+    max-width: 25.5em;
+    background-color: #17191a;
+    padding: 3em 1.8em;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 0 0.6em 2.5em rgba(0, 7, 70, 0.2);
+  }
+  .location img {
+    width: 6.25em;
+    display: block;
+    margin: auto;
+  }
+  #location-details {
+    font-size: 1.75em;
+    text-align: center;
+    margin: 1em 0 1.7em 0;
+    color: #021d38;
+    font-weight: 500;
+  }
+  .location button {
+    display: block;
+    margin: auto;
+    background-color: #c7c3bd;
+    color: #17191a;
+    border: none;
+    font-size: 1.25em;
+    padding: 1em 2.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
   }
