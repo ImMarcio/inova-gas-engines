@@ -2,9 +2,15 @@ body {
     background-color: #17191a;
     color: #c7c3bd;
   }
+
+  #icon {
+    border-radius: 50%;
+  }
+
   .nav-link{
     color: #c7c3bd;
   }
+
   #proposta{
     font-size: 25px;
   }
